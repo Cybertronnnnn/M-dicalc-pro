@@ -1,0 +1,31 @@
+# ── Python / Backend ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+.pytest_cache/
+
+# ── Variables d'environnement (NE JAMAIS COMMIT) ──────
+.env
+.env.local
+.env.production
+
+# ── Node / Frontend ───────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Éditeurs ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── PDF générés (temporaires) ─────────────────────────
+*.pdf
